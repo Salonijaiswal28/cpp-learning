@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+int main(){
+    int eco,eng,hindi,homesci,polsci,percentage;
+ cout<<"enterthe marks of eco :";
+    cin>>eco;
+    cout<<"enter the marks of eng : ";
+    cin>>eng;
+    cout<<"enter the marks of hindi : ";
+    cin>>hindi;
+    cout<<"enter the marks of home science : ";
+    cin>>homesci;
+    cout<<"enter the marks of politics : ";
+    cin>>polsci;
+    percentage=(eco+eng+hindi+homesci+polsci)/5;
+
+cout<<"The percentage of student is :"<<percentage <<endl;
+return 0;
+}
